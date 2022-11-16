@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    .navbar{
+        display: flex;
+        align-items: center;  padding-top: 1.3rem;  
+        justify-content: space-between;
+        .navbar__left{
+            .navbar__left__text{
+                display: flex;
+                align-items: center;
+                    .text__line{
+                        margin: 0 1rem;
+                       .line__tittle{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 18px;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                       }
+                    }
+        }
+    }
+    .navbar__right{
+        .navbar__right__text{
+                .text__line{
+                    margin: 0 1rem;
+                    .line__tittle{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 18px;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+    }
+}
+}
+}
+        .olcha{
+            .olcha__text{
+                color: red;
+                font-weight: bold;
+                font-size: 50px;
+            }
+            .btn{
+                margin: 0 2rem;
+               padding: 0.7rem 3rem;
+            }
+            .olcha__input{
+                padding: 0.8rem 9rem;
+                background-color: rgba(34, 34, 34, 0.171);
+                border: none;
+                border-radius: 8px;
+                outline: none;
+                &::placeholder{
+                font-size: 18px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+            .bx{
+                font-size: 30px;
+                margin: 0 3rem;
+                background-color: lightgray;
+                border-radius: 7px;
+                padding: 0.4rem;
+            }
+            .bx-search-alt-2{
+                background-color: rgb(206, 12, 12);
+                padding: 0.6rem 1.2rem;
+                position: absolute;
+                color: white;
+                left: 46rem;
+                border-radius: 7px;
+            }
+        }  
+        .main{
+            .main__father{
+                padding: 1rem 0;
+                display: flex;
+                justify-content: space-around;
+                .main__left{
+                    width: 60rem;
+                        p{
+                            color: rgba(0, 0, 0, 0.479);
+                        }
+                    h4{
+                        margin: 1rem 0;
+                        color: rgba(0, 0, 0, 0.767);
+                        &:hover{
+                            color: red;
+                        }
+                    }
+                }
+                .main__right{
+                    .main__right__img{
+                        width: 100%;
+                        border-radius: 15px;
+                        transition: all ease 0.3s;
+                        &:hover{
+                            transform: scale(1.02);
+                        }
+                    }
+                }
+            }
+        }        
+}

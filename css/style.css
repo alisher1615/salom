@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header .navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 1.3rem;
+  justify-content: space-between;
+}
+.header .navbar .navbar__left .navbar__left__text {
+  display: flex;
+  align-items: center;
+}
+.header .navbar .navbar__left .navbar__left__text .text__line {
+  margin: 0 1rem;
+}
+.header .navbar .navbar__left .navbar__left__text .text__line .line__tittle {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header .navbar .navbar__right .navbar__right__text .text__line {
+  margin: 0 1rem;
+}
+.header .navbar .navbar__right .navbar__right__text .text__line .line__tittle {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header .olcha .olcha__text {
+  color: red;
+  font-weight: bold;
+  font-size: 50px;
+}
+.header .olcha .btn {
+  margin: 0 2rem;
+  padding: 0.7rem 3rem;
+}
+.header .olcha .olcha__input {
+  padding: 0.8rem 9rem;
+  background-color: rgba(34, 34, 34, 0.171);
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+.header .olcha .olcha__input::-moz-placeholder {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header .olcha .olcha__input:-ms-input-placeholder {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header .olcha .olcha__input::placeholder {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header .olcha .bx {
+  font-size: 30px;
+  margin: 0 3rem;
+  background-color: lightgray;
+  border-radius: 7px;
+  padding: 0.4rem;
+}
+.header .olcha .bx-search-alt-2 {
+  background-color: rgb(206, 12, 12);
+  padding: 0.6rem 1.2rem;
+  position: absolute;
+  color: white;
+  left: 46rem;
+  border-radius: 7px;
+}
+.header .main .main__father {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.header .main .main__father .main__left {
+  width: 60rem;
+}
+.header .main .main__father .main__left p {
+  color: rgba(0, 0, 0, 0.479);
+}
+.header .main .main__father .main__left h4 {
+  margin: 1rem 0;
+  color: rgba(0, 0, 0, 0.767);
+}
+.header .main .main__father .main__left h4:hover {
+  color: red;
+}
+.header .main .main__father .main__right .main__right__img {
+  width: 100%;
+  border-radius: 15px;
+  transition: all ease 0.3s;
+}
+.header .main .main__father .main__right .main__right__img:hover {
+  transform: scale(1.02);
+}/*# sourceMappingURL=style.css.map */
